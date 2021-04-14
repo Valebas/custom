@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+	<!-- <base href="/"> -->
+
+  <title>Название сайта - Главная</title>
+
+  <meta name="keywords" content=".">
+  <!--1.Условие. description заменить инфой из ТЗ заказчика или оставить пустым-->
+  <meta name="description" content="Купить или заказать. Название продукта, товара. Цена такая-то. Причем слово цена важна. Название магазина">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1">
+  <!--2.Условие. Если нужно поддерживать IE 9 или IE 8 расскомментировать. Edge это не название браузера-->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+  <meta name="format-detection" content="telephone=no">
+
+  <!--3.Условие. Нужна только после deploy сайта на сервер, когда будет известен домен. От content в og:image будет зависить как будет отображаться картинка (ссылка) на этот сайт в мобильном (в том числе на рабочем экране) или соцсетях-->
+  <meta property="og:image" content="path/to/image.jpg">
+  <!--3.Условие. Перед deploy убрать локальный адрес из url favicon и заменить на реальный адрес. В идеале они должны лежать на уровне index.html. И не забыть их сделать впринципе-->
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="http://localhost:5555/img/favicon/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="http://localhost:5555/img/favicon/apple-touch-icon-180x180.png">-->
+
+  <!-- 4.Условие. Работают в совокупности Только если дизайнер передаст иконку под панель на мобильном -->
+  <!-- <link rel="manifest" href="manifest.json"> -->
+
+  <meta name="theme-color" content="#000000">
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="page-header">Тест</header>
+
+  <main class="page-main"></main>
+
+  <footer class="page-footer"></footer>
+
+  <script src="js/script.min.js"></script>
+
+</body>
+</html>
